@@ -1,0 +1,94 @@
+/* reseteo universal */
+* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+article,figcaption,figure,footer,hgroup,nav,section {
+	display: block;
+}
+
+body{
+	background: #252525 url("../img/fondo.jpg");
+	color: #FFF;
+	font-family: "Chalet", alvetica, verdana;
+	font-size: 1em;
+	
+}
+
+header, section#contenido, footer {
+	background: #FFF url(../img/fondo-interno.jpg);
+	margin: 0 auto;
+	max-width: 95%;
+	text-align: center;
+}
+
+a{
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 0.1em;
+	vertical-align: top;
+}
+
+nav a{
+	font-size: 1em;
+}
+/*
+nav a{
+	background: #FFF;
+	border: 0.1em solid #57ABB8;
+	border-radius: 0.25em;
+	color: #F60;
+	display: block;
+	font-family: "Pecita", helvetica, verdana;
+	font-size: 1.0em;
+	padding: 0.2em;*/
+	/*tip efectos nuevos en css3 transition*//*
+	-ms-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-o-transition: all 0.5s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	transition: all 0.5s ease-in;
+}
+
+nav a:hover {
+	background: #212121;
+	border: 0.1em dashed #F60;
+	border-radius: 0 0.5em 0 0.5em;
+	color: #FFF;*/
+	/*tip efectos nuevos en css3 transition
+	-ms-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+}
+*/
+header h1, nav {
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+}
+header  h1{
+	text-align: left;
+	width: 20%;
+}
+header nav{
+	text-align: right;
+	width: 75%;
+}
+
+
+footer nav{
+	vertical-align: ;
+}

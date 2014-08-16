@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /projects/TECH21/
+RewriteRule !\.(js|ico|txt|gif|jpg|png|css|html|pdf|ttf|woff|eot|svg)$ index.php
+#RewriteCond $1 !^(index\.php|images|robots\.txt)
+#RewriteRule ^(.*)$ /index.php/$1 [L]
+
+
